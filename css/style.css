@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #151515;
+  color: #ffffff;
+}
+
+img {
+  max-width: 300px;
+}
+
+.header .logo {
+  font-size: 28px;
+}
+
+.header .container-header a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+.header .container-header .redes a {
+  font-size: 24px;
+}
+
+.header .container-header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container-header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ---------------------------------------------- */
+
+/* ---------------------------------------------- */
+
+.principal {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.principal .container-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.principal .container-texto {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.principal .texto-main {
+  font-size: 28px;
+  max-width: 600px;
+  color: #cccccc;
+}
+
+.principal .btn {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  width: 150px;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+}
+
+.principal .titulo-main {
+  font-size: 60px;
+  max-width: 600px;
+  margin-top: 60px;
+}
