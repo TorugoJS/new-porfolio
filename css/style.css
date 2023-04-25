@@ -28,6 +28,11 @@ img {
   font-size: 28px;
 }
 
+.header .logo:hover {
+  color: #c0c0a6;
+  cursor: pointer;
+}
+
 .header .container-header a {
   text-decoration: none;
   color: #fff;
@@ -35,6 +40,10 @@ img {
 }
 .header .container-header .redes a {
   font-size: 24px;
+}
+.header .container-header .redes a:hover {
+  color: #c0c0a6;
+  cursor: pointer;
 }
 
 .header .container-header {
@@ -102,9 +111,15 @@ img {
   text-decoration: none;
   color: #fff;
   text-align: center;
+  border-radius: 4px;
   width: 200px;
   padding: 10px 15px;
   border: 2px solid #fff;
+}
+
+.introducao .btn:hover {
+  background-color: #fff;
+  color: #151515;
 }
 
 .introducao .titulo-introducao {
@@ -135,6 +150,24 @@ img {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 1000px) {
+  .introducao .perfil img {
+    width: 250px;
+  }
+  .container-texto {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .introducao .btn {
+    margin: 0 auto;
+  }
+  .introducao .perfil {
+    margin: 0 auto;
+  }
+}
+
+/* @media (max-width: 1000px) */
 
 @media (max-width: 1200px) {
   .introducao .texto-introducao {
