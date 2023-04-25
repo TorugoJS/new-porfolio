@@ -19,6 +19,9 @@ body {
 
 img {
   max-width: 300px;
+  border-radius: 50%;
+  margin-top: 40px;
+  display: block;
 }
 
 .header .logo {
@@ -45,46 +48,102 @@ img {
   justify-content: space-between;
 }
 
-/* ---------------------------------------------- */
+@media (max-width: 600px) {
+  .header .logo {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .header .container-header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .redes {
+    margin: 20px auto;
+  }
+  .header .redes a i {
+    font-size: 40px;
+    margin: 10px;
+  }
+}
 
 /* ---------------------------------------------- */
 
-.principal {
+/* ---------------------------------------------- */
+
+.introducao {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   margin-top: 60px;
+  font-family: "Space Grotesk", sans-serif;
 }
 
-.principal .container-main {
+.introducao .container-introducao {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.principal .container-texto {
+.introducao .container-texto {
   display: flex;
   gap: 30px;
   flex-direction: column;
 }
 
-.principal .texto-main {
+.introducao .texto-introducao {
   font-size: 28px;
-  max-width: 600px;
+  max-width: 800px;
   color: #cccccc;
 }
 
-.principal .btn {
+.introducao .btn {
   text-decoration: none;
   color: #fff;
   text-align: center;
-  width: 150px;
+  width: 200px;
   padding: 10px 15px;
   border: 2px solid #fff;
 }
 
-.principal .titulo-main {
+.introducao .titulo-introducao {
   font-size: 60px;
+  font-family: "Space Grotesk", sans-serif;
   max-width: 600px;
   margin-top: 60px;
+}
+
+@media (max-width: 600px) {
+  .introducao .titulo-introducao {
+    margin-top: -60px;
+    text-align: center;
+    font-size: 42px;
+  }
+
+  .introducao .texto-introducao {
+    text-align: center;
+    font-size: 22px;
+  }
+  .introducao .btn {
+    margin: 0 auto;
+  }
+  .introducao .perfil img {
+    width: 200px;
+  }
+  .introducao .perfil {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .introducao .texto-introducao {
+    max-width: 500px;
+  }
+  .introducao .titulo-introducao {
+    font-size: 48px;
+  }
+  .introducao .texto-introducao {
+    font-size: 22px;
+  }
 }
