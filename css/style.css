@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 p,
@@ -87,6 +88,15 @@ img {
   padding: 20px;
   margin-top: 60px;
   font-family: "Space Grotesk", sans-serif;
+  position: relative;
+}
+.introducao::after {
+  content: " ";
+  position: absolute;
+  width: 1200px;
+  margin: 80px auto 0px auto;
+  height: 1px;
+  background-color: #696969;
 }
 
 .introducao .container-introducao {
@@ -104,7 +114,7 @@ img {
 .introducao .texto-introducao {
   font-size: 28px;
   max-width: 800px;
-  color: #cccccc;
+  color: gray;
 }
 
 .introducao .btn {
@@ -124,7 +134,7 @@ img {
 
 .introducao .titulo-introducao {
   font-size: 60px;
-  font-family: "Space Grotesk", sans-serif;
+
   max-width: 600px;
   margin-top: 60px;
 }
@@ -178,5 +188,70 @@ img {
   }
   .introducao .texto-introducao {
     font-size: 22px;
+  }
+  .introducao::after {
+    display: none;
+  }
+}
+
+/* --------------------------------------------- */
+
+.principal {
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+.principal-texto {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.principal .caixa {
+  width: 340px;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+
+  /* background-color: #ccc; */
+}
+
+.principal .caixa h3 {
+  font-size: 38px;
+}
+
+.principal .caixa p {
+  font-size: 16px;
+  /* border-bottom: 1px solid #d9d9d9; */
+  color: #d9d9d9;
+}
+
+@media (max-width: 600px) {
+  .principal {
+    margin-top: -100px;
+  }
+
+  .principal-texto .caixa h3 {
+    font-size: 32px;
+  }
+  .principal .principal-texto .caixa {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    /* background-color: #696969; */
+  }
+}
+
+@media (max-width: 1200px) {
+  .principal .caixa {
+    width: 300px;
+  }
+
+  .principal-texto {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
   }
 }
