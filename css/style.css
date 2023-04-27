@@ -16,11 +16,12 @@ h3 {
 body {
   background-color: #151515;
   color: #ffffff;
+  height: 400vh;
 }
 
 img {
   max-width: 300px;
-  border-radius: 50%;
+  border-radius: 8px;
   margin-top: 40px;
   display: block;
 }
@@ -221,6 +222,20 @@ img {
 .principal .caixa h3 {
   font-size: 38px;
 }
+.principal h3 {
+  position: relative;
+}
+
+.principal h3::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  bottom: 24px;
+  left: -20px;
+  height: 6px;
+
+  background-color: blueviolet;
+}
 
 .principal .caixa p {
   font-size: 16px;
@@ -240,7 +255,14 @@ img {
     width: 100%;
     height: 100px;
     padding: 10px;
-    /* background-color: #696969; */
+  }
+}
+
+@media (max-width: 800px) {
+  .principal .principal-texto .caixa {
+    width: 100%;
+    height: 100px;
+    padding: 30px;
   }
 }
 
@@ -248,10 +270,63 @@ img {
   .principal .caixa {
     width: 300px;
   }
+  .principal {
+    margin-top: -60px;
+  }
+  .principal .principal-texto h3 {
+    font-size: 28px;
+  }
+  .principal .principal-texto .caixa {
+    height: 100px;
+    padding: 10px;
+    /* background-color: #696969; */
+  }
+  .principal h3::before {
+    top: 15px;
+  }
 
   .principal-texto {
     display: flex;
     justify-content: space-around;
     gap: 30px;
   }
+}
+
+/* ---------------------------------------------------- */
+
+.projetos {
+  max-width: 1200px;
+  display: flex;
+  margin: 60px auto 0 auto;
+}
+.projetos-container {
+  flex-wrap: wrap;
+}
+.projetos-container h1 {
+  display: block;
+  font-size: 48px;
+  margin: 0 0 40px 30px;
+}
+
+.projetos-itens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.projetos-itens .item {
+  width: 320px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  /* background-color: #696969; */
+}
+
+.item-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  text-align: start;
 }
