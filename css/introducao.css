@@ -1,0 +1,120 @@
+.introducao {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 60px;
+  font-family: "Space Grotesk", sans-serif;
+  position: relative;
+}
+
+/* .introducao::after {
+  content: " ";
+  position: absolute;
+  width: 1200px;
+  margin: 80px auto 0px auto;
+  height: 1px;
+  background-color: #696969;
+} */
+
+.introducao .container-introducao {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.introducao .container-texto {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.introducao .texto-introducao {
+  font-size: 28px;
+  max-width: 800px;
+  color: gray;
+}
+
+.introducao .btn {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  width: 200px;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+}
+
+.introducao .btn:hover {
+  background-color: #fff;
+  color: #151515;
+}
+
+.introducao .titulo-introducao {
+  font-size: 60px;
+
+  max-width: 600px;
+  margin-top: 60px;
+}
+.perfil img {
+  width: 300px;
+  /* background-color: #696969; */
+  border-radius: 8px;
+  margin-top: 120px;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .introducao .titulo-introducao {
+    margin-top: -60px;
+    text-align: center;
+    font-size: 42px;
+  }
+
+  .introducao .texto-introducao {
+    text-align: center;
+    font-size: 22px;
+  }
+  .introducao .btn {
+    margin: 0 auto;
+  }
+  .introducao .perfil img {
+    width: 200px;
+  }
+  .introducao .perfil {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .introducao .perfil img {
+    background-color: #696969;
+    margin-top: 40px;
+  }
+  .container-texto {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .introducao .btn {
+    margin: 0 auto;
+  }
+  .introducao .perfil {
+    margin: 0 auto;
+  }
+}
+
+/* @media (max-width: 1000px) */
+
+@media (max-width: 1200px) {
+  .introducao .texto-introducao {
+    max-width: 500px;
+  }
+  .introducao .titulo-introducao {
+    font-size: 48px;
+  }
+  .introducao .texto-introducao {
+    font-size: 22px;
+  }
+  .introducao::after {
+    display: none;
+  }
+}

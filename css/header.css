@@ -1,0 +1,52 @@
+.header .logo {
+  font-size: 28px;
+}
+
+.header .logo:hover {
+  color: #c0c0a6;
+  cursor: pointer;
+}
+
+.header .container-header a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+.header .container-header .redes a {
+  font-size: 24px;
+}
+.header .container-header .redes a:hover {
+  color: #c0c0a6;
+  cursor: pointer;
+}
+
+.header .container-header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container-header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .header .logo {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .header .container-header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .redes {
+    margin: 20px auto;
+  }
+  .header .redes a i {
+    font-size: 40px;
+    margin: 10px;
+  }
+}
