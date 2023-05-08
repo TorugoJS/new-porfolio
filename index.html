@@ -25,14 +25,14 @@
           >Victor Hugo <i class="fa fa-code" aria-hidden="true"></i
         ></a>
         <div class="redes">
-          <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
-          <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/torugo_dev/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://github.com/TorugoJS" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/victor-hugodev/" target="_blank" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
       </div>
     </header>
 
-    <section class="introducao">
+    <section class="introducao" data-anime="scroll">
       <div class="container-introducao">
         <div class="container-texto">
           <h1 class="titulo-introducao">
@@ -45,7 +45,7 @@
             práticas de UI e UX Design. Me considero um desenvolvedor ágil e
             consistente. Estou buscando uma oportunidade de estágio para colocar
             em prática meus conhecimentos e evoluir como desenvolvedor.
-          </p>
+          </p>        
           <a class="btn" id="#contato" href="">Entrar em contato</a>
         </div>
         <div class="perfil">
@@ -54,7 +54,7 @@
       </div>
     </section>
 
-    <section class="principal">
+    <section class="principal" data-anime="scroll">
       <div class="principal-conteudo">
         <div class="principal-texto">
           <div class="caixa">
@@ -115,7 +115,7 @@
       </div>
     </section>
 
-    <div class="projeto-container">
+    <section class="projetos" data-anime="scroll">
       <div class="projeto">
         <img src="./img/projeto-1.png" alt="Projeto 1" />
         <h3>Bikcraft</h3>
@@ -164,6 +164,52 @@
         <a href="#">Ver Projeto</a>
         <a href="#">Ver Projeto</a>
       </div>
-    </div>
+    </section>
+
+    <section class="contato" data-anime="scroll">
+      <form>
+        <h1>Entre em contato comigo!</h1>
+        <label for="name">Nome</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Digite seu nome"
+        />
+
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Digite seu e-mail"
+        />
+
+        <label for="message">Mensagem</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Digite sua mensagem"
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <a class="logo" href="#"
+          >Victor Hugo <i class="fa fa-code" aria-hidden="true"></i
+        ></a>
+
+        <div class="redes">
+          <a href="https://www.instagram.com/torugo_dev/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://github.com/TorugoJS" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/victor-hugodev/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <h2>Desenvolvido por TorugoJS</h2>
+    </footer>
+    <script src="./js/animação.js""></script>
   </body>
 </html>
