@@ -15,13 +15,14 @@
 
 .introducao .container-texto {
   display: flex;
-  gap: 30px;
+  gap: 40px;
+  padding-top: 30px;
   flex-direction: column;
 }
 
 .introducao .texto-introducao {
-  font-size: 24px;
-  max-width: 600px;
+  font-size: 20px;
+  max-width: 47ch;
   color: gray;
   /* background-color: beige; */
 }
@@ -38,7 +39,7 @@
 
 .introducao .btn:hover {
   background-color: #fff;
-  color: #151515;
+  color: blueviolet;
 }
 
 .introducao .titulo-introducao {
@@ -48,9 +49,8 @@
   margin-top: 60px;
 }
 .perfil img {
-  width: 400px;
-  margin-top: 40px;
-  border-radius: 50%;
+  width: 360px;
+  border-radius: 8px;
   display: block;
 }
 
@@ -79,6 +79,7 @@
 @media (max-width: 1000px) {
   .introducao .perfil img {
     margin-top: 40px;
+    width: 300px;
   }
   .container-texto {
     text-align: center;

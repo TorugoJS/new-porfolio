@@ -3,7 +3,7 @@
 }
 
 .header .logo:hover {
-  color: #c0c0a6;
+  color: blueviolet;
   cursor: pointer;
 }
 
@@ -16,7 +16,7 @@
   font-size: 24px;
 }
 .header .container-header .redes a:hover {
-  color: #c0c0a6;
+  color: blueviolet;
   cursor: pointer;
 }
 
