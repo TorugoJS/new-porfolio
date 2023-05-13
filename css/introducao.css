@@ -15,7 +15,7 @@
 
 .introducao .container-texto {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   padding-top: 30px;
   flex-direction: column;
 }
@@ -24,7 +24,6 @@
   font-size: 20px;
   max-width: 47ch;
   color: gray;
-  /* background-color: beige; */
 }
 
 .introducao .btn {
@@ -43,10 +42,12 @@
 }
 
 .introducao .titulo-introducao {
-  font-size: 60px;
-
+  font-size: 48px;
   max-width: 600px;
-  margin-top: 60px;
+  margin-top: 40px;
+}
+.titulo-introducao span {
+  color: aqua;
 }
 .perfil img {
   width: 360px;
@@ -80,6 +81,9 @@
   .introducao .perfil img {
     margin-top: 40px;
     width: 300px;
+  }
+  .introducao .texto-introducao {
+    margin: 0 auto;
   }
   .container-texto {
     text-align: center;
