@@ -32,8 +32,9 @@
   text-align: center;
   border-radius: 4px;
   width: 200px;
+  box-shadow: 5px 5px 5px #8a2be2;
+  background-color: #7b68ee;
   padding: 10px 15px;
-  border: 2px solid #fff;
 }
 
 .introducao .btn:hover {
@@ -47,7 +48,7 @@
   margin-top: 40px;
 }
 .titulo-introducao span {
-  color: aqua;
+  color: #7b68ee;
 }
 .perfil img {
   width: 360px;

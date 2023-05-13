@@ -3,23 +3,21 @@
   justify-content: center;
   align-items: center;
   margin-top: 78px;
+  background-color: #1c1c1c;
 }
 
 form {
   width: 80%;
   max-width: 1200px;
-  background-color: #1c1c1c;
   border-radius: 10px;
   padding: 40px;
-
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .contato h1 {
   text-align: center;
   margin-top: 0;
-  font-size: 32px;
-  color: #fff;
+  font-size: 36px;
+  color: #8a2be2;
 }
 
 input[type="text"],
@@ -30,28 +28,28 @@ textarea {
   border: none;
   border-radius: 4px;
   margin-bottom: 10px;
-  font-size: 18px;
-  background-color: #f2f2f2;
+  font-size: 22px;
+  background-color: #c1c1c1;
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  background-color: #ddd;
+  background-color: #d3d3d3;
   outline: none;
 }
 
 label {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   display: block;
-  margin-bottom: 10px;
-  color: #333;
-  color: #fff;
+  color: #8a2be2;
+  margin-bottom: 15px;
 }
 
 button[type="submit"] {
-  background-color: #4caf50;
+  box-shadow: 5px 7px 7px #8a2be2;
+  background-color: #7b68ee;
   color: #fff;
   padding: 12px 20px;
   border: none;
@@ -63,7 +61,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #8a2be2;
 }
 
 @media screen and (max-width: 768px) {
