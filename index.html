@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/laptop.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,7 +22,7 @@
       src="https://kit.fontawesome.com/713882bf11.js"
       crossorigin="anonymous"
     ></script>
-    <title>Victor Hugo</title>
+    <title>Dev's Victor Hugo</title>
   </head>
 
   <body>
@@ -132,7 +133,9 @@
     </section>
 
     <section class="projetos" id="projetos" data-anime="scroll">
+      
       <div class="projeto">
+      
         <img src="./img/projeto-1.png" alt="Projeto 1" />
         <h3>Bikcraft</h3>
         <p class="tecnologias">HTML - CSS - Javascript</p>
@@ -153,6 +156,7 @@
         <a target="_blank" href="https://animais-fantasticos-green.vercel.app/">Ver site</a>
         <a target="_blank" href="https://github.com/TorugoJS/animais-fantasticos">Ver código</a>
       </div>
+     
       <div class="projeto">
         <img src="./img/projeto-3.png" alt="Projeto 3" />
         <h3>Wildbeast</h3>
@@ -173,15 +177,16 @@
         <a target="_blank" href="https://flex-blog-neon.vercel.app/">Ver site</a>
         <a target="_blank" href="https://github.com/TorugoJS/Flexblog">Ver código</a>
       </div>
+      
     </section>
-
     <section class="formacao" data-anime="scroll">
       <div class="formacao-container">
+       
         <h1>Formações e Cursos Extracurriculares</h1>
         <div class="cursos">
           <div class="curso">
             <h3>Análise e Desenvolvimento de Sistemas</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ullam!</p>
+            <p>Especializada em programação e oferece um currículo abrangente em tecnologias. Passado materias como Engenharia de Software, Segurança da Informação, Algoritmos e Lógica de Programação</p>
             <p>Tecnólogo</p>
             <p>Universidade Estácio de Sá</p>
             <p>2020 - 2023</p>
@@ -189,7 +194,7 @@
 
           <div class="curso">
             <h3>Front-End Completo e Design UI/UX</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ullam!</p>
+            <p>Curso de Front-end completo abrange todas as habilidades necessárias para desenvolver interfaces de usuário atraentes e responsivas, utilizando tecnologias como HTML, CSS, JavaScript e React.</p>
             <p>Curso Desenvolvimento Front-end</p>
             <p>Origamid</p>
             <p>2022 - 2023</p>
@@ -197,7 +202,7 @@
           </div>
           <div class="curso">
             <h3>Curso Full-Stack Web Javascript</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ullam!</p>
+            <p>Curso de JavaScript Full Stack abrange tanto o desenvolvimento do lado do cliente quanto do servidor, utilizei frameworks como React e Node.js, além de dominar conceitos de banco de dados e integração de APIs.</p>
             <p>Curso Desenvolvimento Full-Stack</p>
             <p>OneBitCode</p>
             <p>2022 - 2023</p>
@@ -207,6 +212,7 @@
         </div>
         <h2>Idioma</h2>
         <div class="curso idioma">
+          <h2>Inglês</h2>
           <p>Nível Avançado</p>
           <p>CCAA</p>
           <p>2021 - 2025</p>
@@ -214,7 +220,7 @@
     </section>
 
     <section class="contato" id="contato" data-anime="scroll">
-      <form>
+      <form action="https://api.staticforms.xyz/submit" method="post">
         <h1>Entre em contato comigo!</h1>
         <label for="name">Nome</label>
         <input
@@ -222,6 +228,7 @@
           id="name"
           name="name"
           placeholder="Digite seu nome aqui"
+          required
         />
 
         <label for="email">E-mail</label>
@@ -230,6 +237,7 @@
           id="email"
           name="email"
           placeholder="Digite seu e-mail aqui"
+          required
         />
 
         <label for="message">Mensagem</label>
@@ -237,9 +245,12 @@
           id="message"
           name="message"
           placeholder="Me envie uma mensagem"
+          required
         ></textarea>
 
         <button type="submit">Enviar</button>
+        <input type="hidden" name="accessKey" value="7cc096db-a989-49ea-860c-987f8fd9a5b6">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/envioEmail.html">
       </form>
     </section>
 

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #363636;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  gap: 80px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 56px;
+  color: #8a2be2;
+}
+
+a {
+  font-size: 32px;
+  text-decoration: none;
+  color: #8a2be2;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px 20px;
+}

@@ -18,3 +18,4 @@ if (sections.length) {
 
   window.addEventListener("scroll", animaScroll);
 }
+
