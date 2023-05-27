@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Space Grotesk", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
 }
 span {
   color: #7b68ee;
@@ -19,4 +21,17 @@ h3 {
 body {
   background-color: #151515;
   color: #ffffff;
+}
+
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-track {
+  background: #ccc;
+  border-radius: 5rem;
 }
