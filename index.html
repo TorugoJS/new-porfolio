@@ -26,7 +26,7 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="header" aria-label="cabeçalho">
       <div class="container-header">
         <a class="logo" href="#"
           >Victor Hugo <i class="fa fa-code" aria-hidden="true"></i
@@ -48,7 +48,7 @@
       </div>
     </header>
 
-    <section class="introducao" data-anime="scroll">
+    <main class="introducao" data-anime="scroll" aria-label="introdução">
       <div class="container-introducao">
         <div class="container-texto">
           <h1 class="titulo-introducao">
@@ -69,9 +69,9 @@
           <img class="perfil" src="./img/perfil-port.png" alt="perfil" />
         </div>
       </div>
-    </section>
+    </main>
 
-    <section class="servicos" data-anime="scroll" >
+    <section class="servicos" aria-label="serviços" data-anime="scroll" >
       <div class="servicos-container">
         <div class="servicos-introducao">
           <h2>Serviços e Soluções Personalizadas<span>.</span></h2>
@@ -96,7 +96,7 @@
       </div>
     </section>
 
-    <section class="principal" data-anime="scroll">
+    <section class="principal" aria-label="tecnologias" data-anime="scroll">
       <div class="principal-conteudo">
         <div class="principal-texto">
           <div class="caixa">
@@ -132,10 +132,21 @@
       <hr />
     </section>
 
-    <section class="projetos" id="projetos" data-anime="scroll">
+    <section class="projetos" aria-label="meus projetos" id="projetos" data-anime="scroll">
+
+
+      <div class="projeto">
+        <img src="./img/projeto-5.png" alt="Projeto 3" />
+        <h3>Tech Dev's</h3>
+        <p class="tecnologias">HTML - CSS - Javascript</p>
+        <p>
+          Contrui esse E-Commerce com HTML, CSS e Javascript, a estrutura está organizada e 100% responsiva. Desenvolvi a funcionalidade de adicionar um produto no carrinho e remover. O objetivo do projeto era fazer uma página web responsiva e interativa para apresentar vendas sobre periféricos de uma empresa fictícia chamada Tech Dev's.
+        </p>
+        <a target="_blank" href="https://techdevs.vercel.app/">Ver site</a>
+        <a target="_blank" href="https://github.com/TorugoJS/E-Commerce">Ver código</a>
+      </div>
       
       <div class="projeto">
-      
         <img src="./img/projeto-1.png" alt="Projeto 1" />
         <h3>Bikcraft</h3>
         <p class="tecnologias">HTML - CSS - Javascript</p>
@@ -150,39 +161,31 @@
         <h3>Animais Fantásticos</h3>
         <p class="tecnologias">HTML - CSS - Javascript</p>
         <p>
-          Eu desenvolvi esse projeto no curso Origamid utilizando HTML, CSS e JavaScript para criar um site simples e divertido. Foi usado HTML, CSS e JavaScript para criar algumas animações. O usuário poderia clicar em imagens para realizar ações, e a página mostrava texto sobre animais.
-          O resultado final foi um site legal que mostrou como é possível criar algo divertido utilizando tecnologias web básicas.
+          Eu desenvolvi esse projeto no curso Origamid utilizando HTML, CSS e JavaScript para criar um site simples e divertido. Foi usado HTML, CSS e JavaScript para criar algumas animações. O usuário poderia clicar em imagens para realizar ações, e a página mostrava texto sobre animais e a imagem.
+          O resultado final foi um site legal que mostrou como é possível criar algo divertido utilizando tecnologias web básicas. Está totalmente responsivo e bem estruturado.
         </p>
         <a target="_blank" href="https://animais-fantasticos-green.vercel.app/">Ver site</a>
         <a target="_blank" href="https://github.com/TorugoJS/animais-fantasticos">Ver código</a>
       </div>
      
-      <div class="projeto">
-        <img src="./img/projeto-3.png" alt="Projeto 3" />
-        <h3>Wildbeast</h3>
-        <p class="tecnologias">HTML - CSS - Grid</p>
-        <p>
-          Utilizei a estrutura de grade para criar esse layout responsivo e organizado, permitindo que o conteúdo do site se adapte a diferentes tamanhos de tela. Utilizei as propriedades do CSS Grid para definir o posicionamento dos elementos, incluindo imagens, textos e botões. Também utilizei o CSS Grid para criar uma seção de galeria de imagens, onde as imagens se organizam automaticamente em uma grade, dependendo do tamanho da tela. 
-        </p>
-        <a target="_blank" href="https://wildbeast-omega.vercel.app/">Ver site</a>
-        <a target="_blank" href="https://github.com/TorugoJS/wildbeast">Ver código</a>
-      </div>
+      
       <div class="projeto">
         <img src="./img/projeto-4.png" alt="Projeto 4" />
         <h3>Flex Blog</h3>
         <p class="tecnologias">HTML - CSS - Flexbox</p>
         <p>
-          Eu criei esse site utilizando Flexbox para posicionar e organizar os elementos na página. Utilizei a propriedade display:flex para criar um layout flexível e adaptável, permitindo que os elementos sejam ajustados automaticamente conforme a tela do usuário. Utilizei as propriedades flex-direction, justify-content e align-items para posicionar e alinhar os elementos corretamente. Além disso, também utilizei o Flexbox para criar um menu de navegação responsivo, que se adapta à medida que o usuário navega pelo site.
+          Eu criei esse site utilizando Flexbox para posicionar e organizar os elementos na página. Utilizei a propriedade display:flex para criar um layout flexível, permitindo que os elementos sejam ajustados automaticamente conforme a tela do usuário. Utilizei as propriedades flex-direction, justify-content para posicionar e alinhar os elementos corretamente. Também utilizei o Flexbox para criar um menu de navegação responsivo, que se adapta à medida que o usuário navega.
         </p>
         <a target="_blank" href="https://flex-blog-neon.vercel.app/">Ver site</a>
         <a target="_blank" href="https://github.com/TorugoJS/Flexblog">Ver código</a>
       </div>
       
     </section>
-    <section class="formacao" data-anime="scroll">
+
+    <section class="formacao" aria-label="minhas formações" data-anime="scroll">
       <div class="formacao-container">
        
-        <h1>Formações e Cursos Extracurriculares</h1>
+        <h2>Formações e Cursos Extracurriculares</h2>
         <div class="cursos">
           <div class="curso">
             <h3>Análise e Desenvolvimento de Sistemas</h3>
@@ -219,9 +222,9 @@
         </div>
     </section>
 
-    <section class="contato" id="contato" data-anime="scroll">
+    <section class="contato" aria-label="contato" id="contato" data-anime="scroll">
       <form action="https://api.staticforms.xyz/submit" method="post">
-        <h1>Entre em contato comigo!</h1>
+        <h2>Entre em contato comigo!</h2>
         <label for="name">Nome</label>
         <input
           type="text"
@@ -274,6 +277,7 @@
       </div>
       <h2>Desenvolvido por TorugoJS</h2>
     </footer>
+    
     <script src="./js/animação.js""></script>
     <script src="./js/script.js"></script>
   </body>

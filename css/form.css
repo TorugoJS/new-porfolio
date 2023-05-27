@@ -13,7 +13,7 @@ form {
   padding: 40px;
 }
 
-.contato h1 {
+.contato h2 {
   text-align: center;
   margin-top: 0;
   font-size: 36px;
@@ -68,7 +68,7 @@ button[type="submit"]:hover {
     width: 90%;
   }
 
-  h1 {
+  h2 {
     font-size: 24px;
   }
 
